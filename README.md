@@ -2,6 +2,16 @@
 
 **GitHub project:** https://github.com/pranush206/AI-Twin-City
 
+## Open the Project
+
+- **[Open local preview](http://127.0.0.1:5173)** — opens the app only if a development server is running on port 5173.
+- **[Browse all project files](https://github.com/pranush206/AI-Twin-City/tree/main)** — opens the files stored in this repository.
+- **[Open mobile app files](https://github.com/pranush206/AI-Twin-City/tree/main/mobile_app)**
+- **[Open backend files](https://github.com/pranush206/AI-Twin-City/tree/main/backend)**
+- **[Open README](https://github.com/pranush206/AI-Twin-City/blob/main/README.md)**
+
+Note: A GitHub file link opens its source code; the local preview link opens the running app. This project does not automatically start a server at port 5173, so start and configure that server if you want to use this address.
+
 ## HTTP Project Links (Local)
 
 - [3D City](http://localhost:8000/city3d)
