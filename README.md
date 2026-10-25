@@ -1,18 +1,5 @@
 # AI Digital Twin City
 
-**Project repository:** https://github.com/pranush206/AI-Twin-City
-
-## Project HTTP Links (Run Locally)
-
-- **3D City:** http://localhost:8000/city3d
-- **Streamlit Dashboard:** http://localhost:8501
-- **Backend API:** http://localhost:8000
-- **API Docs:** http://localhost:8000/docs
-- **Admin:** http://localhost:8000/admin
-
-These links work when the project is running locally; they are not public deployed URLs.
-
-
 A next-generation simulation platform where thousands of autonomous AI citizens live inside a realistic virtual city. Every citizen has memory, goals, relationships, occupations, schedules, and evolving behaviors.
 
 ## Quick Start
