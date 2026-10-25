@@ -1,5 +1,18 @@
 # AI Digital Twin City
 
+**GitHub project:** https://github.com/pranush206/AI-Twin-City
+
+## HTTP Project Links (Local)
+
+- [3D City](http://localhost:8000/city3d)
+- [Dashboard](http://localhost:8501)
+- [API](http://localhost:8000)
+- [API Docs](http://localhost:8000/docs)
+- [Admin](http://localhost:8000/admin)
+
+These are localhost links: run the project to access them. They are not public deployment links.
+
+
 A next-generation simulation platform where thousands of autonomous AI citizens live inside a realistic virtual city. Every citizen has memory, goals, relationships, occupations, schedules, and evolving behaviors.
 
 ## Quick Start
@@ -23,7 +36,7 @@ docker compose up -d
 # Multi-tenant admin portal at http://localhost:8000/admin
 ```
 
-Seeded super-admin login (change immediately outside local dev — see `.env.example`'s Security section): `admin@cognicity.local` / `changeme123`.
+For local development credentials, consult `.env.example` and change all default passwords before deployment.
 
 ### Option 2: Local Development
 
