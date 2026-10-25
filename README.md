@@ -2,26 +2,19 @@
 
 **GitHub project:** https://github.com/pranush206/AI-Twin-City
 
-## Open the Project
+## Run and Open AI-Twin-City Locally
 
-- **[Open local preview](http://127.0.0.1:5173)** — opens the app only if a development server is running on port 5173.
-- **[Browse all project files](https://github.com/pranush206/AI-Twin-City/tree/main)** — opens the files stored in this repository.
-- **[Open mobile app files](https://github.com/pranush206/AI-Twin-City/tree/main/mobile_app)**
-- **[Open backend files](https://github.com/pranush206/AI-Twin-City/tree/main/backend)**
-- **[Open README](https://github.com/pranush206/AI-Twin-City/blob/main/README.md)**
+Start with [docker-compose.yml](docker-compose.yml). Install [Docker Desktop](https://www.docker.com/products/docker-desktop/) if needed, then run this command in the project folder:
 
-Note: A GitHub file link opens its source code; the local preview link opens the running app. This project does not automatically start a server at port 5173, so start and configure that server if you want to use this address.
+```bash
+docker compose up -d --build
+```
 
-## HTTP Project Links (Local)
+Open **[http://127.0.0.1:8501](http://127.0.0.1:8501)** to launch the **AI-Twin-City dashboard** in your browser.
 
-- [3D City](http://localhost:8000/city3d)
-- [Dashboard](http://localhost:8501)
-- [API](http://localhost:8000)
-- [API Docs](http://localhost:8000/docs)
-- [Admin](http://localhost:8000/admin)
+You can also open the [3D City](http://127.0.0.1:8000/city3d), [API docs](http://127.0.0.1:8000/docs), or [Admin Portal](http://127.0.0.1:8000/admin). For the Expo mobile app, see [mobile_app](mobile_app) and run `npm install` then `npm run web` from that folder; use the URL Expo displays.
 
-These are localhost links: run the project to access them. They are not public deployment links.
-
+The links above point to your own computer and only open when the relevant project server is running. GitHub cannot launch the project automatically just by clicking a README link. Port 5173 belongs to the CodeAtlas development setup and is **not** the configured dashboard port for this project.
 
 A next-generation simulation platform where thousands of autonomous AI citizens live inside a realistic virtual city. Every citizen has memory, goals, relationships, occupations, schedules, and evolving behaviors.
 
